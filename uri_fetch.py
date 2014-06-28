@@ -12,5 +12,5 @@ url_fetch = raw_input()
 print url_fetch
 response = urllib2.urlopen(url_fetch)
 uri = response.read()
-print uri.find("Flash Lab")
-#parser_obj.feed(uri)
+
+parser_obj.feed(uri)
